@@ -1,0 +1,60 @@
+.gauge g.arc {
+	fill: steelblue;
+}
+
+.gauge g.pointer {
+	fill: #444;
+	stroke: #444;
+}
+
+.gauge g.target-pointer {
+	fill: #903614;
+	stroke: #903614;
+}
+
+.gauge g.label text {
+	text-anchor: middle;
+	font-size: 12px;
+	fill: #666;
+}
+
+.gauge g.actual text {
+	text-anchor: middle;
+	font-size: 12px;
+	fill: #444;
+	font-weight: bold;
+}
+
+.gauge g.target text {
+	text-anchor: middle;
+	font-size: 12px;
+	fill: #903614;
+	font-weight: bold;
+}
+
+.bullet { font-size: 12px; fill: #666; }
+.bullet .marker { stroke: #903614; stroke-width: 2px; }
+.bullet .tick line { stroke: #666; stroke-width: .5px; }
+.bullet .range.s0 { fill: #c1dba1; }
+.bullet .range.s1 { fill: #ddd; }
+.bullet .range.s2 { fill: #ccc; }
+.bullet .measure.s0 { fill: #51752c; }
+.bullet .title { font-size: 14px; font-weight: bold; }
+.bullet .subtitle { fill: #999; }
+.bullet text.label { fill: #444; font-weight: bold; }
+
+.donut text.label {
+    fill: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+.donut text.summary {
+	font-weight: bold;
+    color: #222222;
+    font-size: 14px;
+    font-family: monospace;
+}
+.donut .tooltip-tile {
+	text-transform: capitalize;
+}
